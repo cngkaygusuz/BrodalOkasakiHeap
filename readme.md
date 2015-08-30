@@ -23,7 +23,7 @@ Prerequisites
 One who wish to venture further should get familiar with
 
 * Heaps in general and
-* Binomial Heap
+* Binomial Heap  (I have an implementation using Go in [this repository](https://github.com/ckaygusu/BinomialHeap).)
 
 You are free to try to make sense what is present in this repository, but I think getting familiar with these concepts
 will help you have easier time with it.
@@ -40,7 +40,7 @@ This data structure is a heavily modified version of the binomial heap;
 * The data structure is allowed to contain itself to make Merge() perform in O(1).
     * Takes O(logn) in skew-binomial and ordinary binomial heaps.
 
-These two modifications yields us an asymptotically optimal data structure, which means we cannot improve any of the
+These three modifications yields us an asymptotically optimal data structure, which means we cannot improve any of the
 worst-case bounds without increasing the bound for some other operation.
 
 
